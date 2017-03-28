@@ -1,0 +1,13 @@
+{
+  "generator-angular-library": {
+    "githubUsername": "StefH",
+    "githubRepoName": "string-split-join",
+    "npmModuleName": "string-split-join",
+    "moduleGlobal": "StringUtils",
+    "ngModuleName": "StringUtils",
+    "selectorPrefix": "removeMe",
+    "projectTitle": "StringUtils for splitting and joining strings with support for separatorCharacter and escapeCharacter.",
+    "projectDescription": "StringUtils for splitting and joining strings with support for separatorCharacter and escapeCharacter.",
+    "authorName": "Stef Heyenrath"
+  }
+}
