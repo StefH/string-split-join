@@ -1,6 +1,6 @@
 {
   "name": "string-split-join",
-  "version": "0.0.0",
+  "version": "0.0.1",
   "description": "StringUtils for splitting and joining strings with support for separatorCharacter and escapeCharacter.",
   "main": "./bundles/string-split-join.umd.js",
   "module": "./index.js",
