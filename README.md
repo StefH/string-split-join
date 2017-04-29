@@ -1,4 +1,6 @@
 # string-split-join
+
+[![Greenkeeper badge](https://badges.greenkeeper.io/StefH/string-split-join.svg)](https://greenkeeper.io/)
 [![Build Status](https://travis-ci.org/StefH/string-split-join.svg?branch=master)](https://travis-ci.org/StefH/string-split-join)
 [![codecov](https://codecov.io/gh/StefH/string-split-join/branch/master/graph/badge.svg)](https://codecov.io/gh/StefH/string-split-join)
 [![npm version](https://badge.fury.io/js/string-split-join.svg)](http://badge.fury.io/js/string-split-join)
