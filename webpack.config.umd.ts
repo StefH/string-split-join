@@ -1,6 +1,6 @@
 import * as path from 'path';
 import * as webpack from 'webpack';
-const angularExternals = require('webpack-angular-externals');
+// const angularExternals = require('webpack-angular-externals');
 const rxjsExternals = require('webpack-rxjs-externals');
 const pkg = require('./package.json');
 
@@ -16,7 +16,7 @@ export default {
     library: 'StringUtils'
   },
   externals: [
-    angularExternals(),
+    // angularExternals(),
     rxjsExternals()
   ],
   devtool: 'source-map',
