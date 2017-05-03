@@ -3,7 +3,10 @@ language: node_js
 node_js:
 - '6'
 
-script: npm test
+script:
+  - rm -rf node_modules
+  - yarn
+  - npm test
 
 notifications:
   email: false
