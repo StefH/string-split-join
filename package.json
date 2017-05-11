@@ -41,7 +41,7 @@
   "devDependencies": {
     "@angular/common": "^4.0.0",
     "@angular/compiler": "^4.0.0",
-    "@angular/compiler-cli": "^4.0.0",
+    "@angular/compiler-cli": "4.1.1",
     "@angular/core": "^4.0.0",
     "@types/chai": "^3.4.35",
     "@types/html-webpack-plugin": "^2.11.2",
