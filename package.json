@@ -7,8 +7,7 @@
   "typings": "./index.d.ts",
   "scripts": {
     "build:umd": "webpack --config webpack.config.umd.ts",
-    "build:ngc": "ngc -p tsconfig-ngc.json",
-    "build:dist": "npm run build:umd && npm run build:ngc",
+    "build:dist": "npm run build:umd",
     "build:clean": "del-cli dist",
     "test": "karma start --single-run && npm run build:dist && npm run build:clean",
     "test:watch": "karma start --auto-watch",
@@ -39,10 +38,6 @@
   },
   "homepage": "https://github.com/StefH/string-split-join#readme",
   "devDependencies": {
-    "@angular/common": "^4.0.0",
-    "@angular/compiler": "^4.0.0",
-    "@angular/compiler-cli": "^4.0.0",
-    "@angular/core": "^4.0.0",
     "@types/chai": "^3.4.35",
     "@types/html-webpack-plugin": "^2.11.2",
     "@types/jasmine": "^2.5.46",
@@ -53,7 +48,6 @@
     "awesome-typescript-loader": "^3.0.8",
     "chai": "^3.5.0",
     "codecov-lite": "^0.1.3",
-    "codelyzer": "^3.0.1",
     "commitizen": "^2.8.1",
     "compodoc": "^0.0.41",
     "concurrently": "^3.0.0",
